@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2EB6FB1F9897B80011F49F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2EB6FA1F9897B80011F49F /* Pokemon.swift */; };
 		6FF539E01F972BC5002F0673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF539DF1F972BC5002F0673 /* AppDelegate.swift */; };
 		6FF539E21F972BC5002F0673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF539E11F972BC5002F0673 /* ViewController.swift */; };
 		6FF539E51F972BC5002F0673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF539E31F972BC5002F0673 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		6F2EB6F91F987E8D0011F49F /* pokemon.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		6F2EB6FA1F9897B80011F49F /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		6FF539DC1F972BC5002F0673 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF539DF1F972BC5002F0673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF539E11F972BC5002F0673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2EB6FC1F9897C20011F49F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F2EB6FA1F9897B80011F49F /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6FF539D31F972BC5002F0673 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		6FF539DE1F972BC5002F0673 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				6F2EB6FC1F9897C20011F49F /* Model */,
 				6FF539DF1F972BC5002F0673 /* AppDelegate.swift */,
 				6FF539E11F972BC5002F0673 /* ViewController.swift */,
 				6FF539E31F972BC5002F0673 /* Main.storyboard */,
@@ -140,6 +151,7 @@
 			files = (
 				6FF539E21F972BC5002F0673 /* ViewController.swift in Sources */,
 				6FF539E01F972BC5002F0673 /* AppDelegate.swift in Sources */,
+				6F2EB6FB1F9897B80011F49F /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
